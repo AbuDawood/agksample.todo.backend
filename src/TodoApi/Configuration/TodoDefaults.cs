@@ -1,1 +1,1 @@
-public static class TodoDefaults { public const int DefaultPageSize = 10; }
+public static class TodoDefaults { public const int DefaultPageSize = 20; }
