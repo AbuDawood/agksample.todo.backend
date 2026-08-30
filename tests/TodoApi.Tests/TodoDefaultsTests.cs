@@ -9,4 +9,10 @@ public sealed class TodoDefaultsTests
     {
         Assert.Equal(20, TodoDefaults.DefaultPageSize);
     }
+
+    [Fact]
+    public void Maximum_page_size_is_one_hundred()
+    {
+        Assert.Equal(100, TodoDefaults.MaximumPageSize);
+    }
 }
